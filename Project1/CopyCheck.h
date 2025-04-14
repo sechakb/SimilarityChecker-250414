@@ -13,7 +13,7 @@ using std::tolower;
 class CopyCheck
 {
 public:
-    int CheckNumOfLetter(string str1, string str2)
+    int CheckScore_NumOfLetter(string str1, string str2)
     {
         int longer, shorter;
 
@@ -28,7 +28,7 @@ public:
         return score;
     }
 
-    int CheckAlphabet(string str1, string str2)
+    int CheckScore_Alphabet(string str1, string str2)
     {
         bitset<MAX_CHAR> set1 = GetCharSet(str1);
         bitset<MAX_CHAR> set2 = GetCharSet(str2);
